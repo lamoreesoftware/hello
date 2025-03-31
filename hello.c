@@ -3,5 +3,5 @@
 
 int main(int argc, char *argv[]) {
   puts("Hello, world!");
-  return EXIT_FAILURE;
+  return EXIT_SUCCESS;
 }
