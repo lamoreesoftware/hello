@@ -1,0 +1,8 @@
+---
+steps:
+  - name: build
+    builder: bob-builder-alpine-c-0.1.13
+    script:
+      - make
+      - ./hello || exit 1
+      - mv hello ${BOB_ARTIFACT_PATH}/hello
